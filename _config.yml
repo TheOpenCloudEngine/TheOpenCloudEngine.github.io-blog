@@ -1,86 +1,56 @@
-#
-# This file contains configuration flags to customize your site
-#
 
-# Name of your site (displayed in the header)
-name: The uEngine / Open Cloud Engine Team Blog
-
-# Short bio or description (displayed in the header)
+title: The uEngine / Open Cloud Engine Team Blog
 description: Web Developer from Somewhere
+author: uEngine solutions
+github: https://github.com/TheOpenCloudEngine
+about: 유엔진솔루션즈는 2003년 이래 업무 프로세스 관리 (Business Process Management), 기업용 SNS, PaaS 를 포함한 클라우드 플랫폼, 도메인 기반 개발 방법을 지향하는 개발 프레임워크 등을 개발하고 오픈소스 프로젝트로 제공하는 기술 집약적 기업입니다.
+disqus_shortname: uengine-team-blog
+google_analytics: 
+avatar_url: https://user-images.githubusercontent.com/487999/28487613-3fb174b4-6ecf-11e7-9b73-b032cf57427b.png
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://user-images.githubusercontent.com/487999/28487613-3fb174b4-6ecf-11e7-9b73-b032cf57427b.png
+enableTags: true
+tagarray: []
 
-#
-# Flags below are optional
-#
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/agusmakmun6"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/summonagus"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/TheOpenCloudEngine"
 
+share:
+  twitter_username: 
+  fb_appid: 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: uengine-team-blog
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: http://TheOpneCloudEngine.github.io
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
+url: "http://TheOpneCloudEngine.github.io"
 baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
+  - jekyll-gist
 
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
