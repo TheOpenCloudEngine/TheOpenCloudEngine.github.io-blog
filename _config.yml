@@ -3,7 +3,7 @@ title: The uEngine / Open Cloud Engine Team Blog
 description: Web Developer from Somewhere
 author: uEngine solutions
 github: https://github.com/TheOpenCloudEngine
-about: 유엔진솔루션즈는 2003년 이래 업무 프로세스 관리 (Business Process Management), 기업용 SNS, PaaS 를 포함한 클라우드 플랫폼, 도메인 기반 개발 방법을 지향하는 개발 프레임워크 등을 개발하고 오픈소스 프로젝트로 제공하는 기술 집약적 기업입니다.
+about: 오픈클라우드엔진 - 성공적 클라우드 서비스 구축을 위한 가장 빠른 방법
 disqus_shortname: uengine-team-blog
 google_analytics: 
 avatar_url: https://user-images.githubusercontent.com/487999/28487613-3fb174b4-6ecf-11e7-9b73-b032cf57427b.png
@@ -33,7 +33,7 @@ share:
   fb_appid: 
 
 urls:
-    - text: About Me
+    - text: About Us
       url: /about/
     - text: Our Projects
       url: /projects/
