@@ -1,42 +1,115 @@
 [
-	{
-		"slug": "cool-project",
-		"name": "Cool project 1",
-		"image": "placeholder.jpg",
-		"url": "https://www.google.com",
-		"date": "Jan 2014",
-		"tags": ["Angular JS","API"]
-	},
-	{
-		"name": "Cool project 2",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Python","Django"]
-	},
-	{
-		"name": "Cool project 3",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","Django"]
-	},
-	{
-		"name": "Cool project 4",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Python","nodejs"]
-	},
-	{
-		"name": "Cool project 5",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Python","nodejs"]
-	},
-	{
-		"name": "Cool project 6",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Python","nodejs"]
-	}
+  {
+    "slug": "metaworks4",
+    "name": "METAWORKS 4",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/metaworks4",
+    "date": "Jun 2017",
+    "tags": [
+      "MSA",
+      "Framework"
+    ]
+  },
+  {
+    "slug": "uEngine-bill",
+    "name": "uEngine billing",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/uEngine-bill",
+    "date": "Jun 2017",
+    "tags": [
+      "MSA"
+    ]
+  },
+  {
+    "slug": "uEngine-iam",
+    "name": "uEngine IAM",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/uEngine-iam",
+    "date": "Jun 2017",
+    "tags": [
+      "MSA"
+    ]
+  },
+  {
+    "slug": "uengine-api-gw",
+    "name": "uEngine Api Gateway",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/uengine-api-gw",
+    "date": "Jun 2017",
+    "tags": [
+      "MSA"
+    ]
+  },
+  {
+    "slug": "HRM",
+    "name": "uEngine Hadoop Remote Management",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/HRM",
+    "date": "Jun 2017",
+    "tags": [
+      "Big Data"
+    ]
+  },
+  {
+    "slug": "uengine-bpm",
+    "name": "uEngine bpm",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/uengine-bpm",
+    "date": "Jun 2017",
+    "tags": [
+      "BPM",
+      "Framework"
+    ]
+  },
+  {
+    "slug": "beluga",
+    "name": "Beluga",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/beluga",
+    "date": "Jun 2017",
+    "tags": [
+      "Paas"
+    ]
+  },
+  {
+    "slug": "beluga-appstore",
+    "name": "Beluga App Store",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/beluga-appstore",
+    "date": "Jun 2017",
+    "tags": [
+      "Paas"
+    ]
+  },
+  {
+    "slug": "process-codi",
+    "name": "Process Codi",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/process-codi",
+    "date": "Jun 2017",
+    "tags": [
+      "Social"
+    ]
+  },
+  {
+    "slug": "essencia",
+    "name": "Essencia",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/essencia",
+    "date": "Jun 2017",
+    "tags": [
+      "Essence"
+    ]
+  },
+  {
+    "slug": "micro-service-architecture-vuejs",
+    "name": "MSA sample app with VueJs",
+    "image": "placeholder.jpg",
+    "url": "https://github.com/TheOpenCloudEngine/micro-service-architecture-vuejs",
+    "date": "Jun 2017",
+    "tags": [
+      "MSA",
+      "Framework"
+    ]
+  }
 ]
