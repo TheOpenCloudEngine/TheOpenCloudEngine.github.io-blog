@@ -44,7 +44,7 @@ layout: compress
     {% endif %}
 
     {% if page.image %}
-      <meta content="{{ site.url }}{{site.url}}/static/img/posts/{{ page.image }}" property="og:image">
+      <meta content="{{site.url}}/static/img/posts/{{ page.image }}" property="og:image">
     {% else %}
       <meta content="{{ site.url }}{{ site.avatar_url }}" property="og:image">
     {% endif %}
@@ -111,6 +111,7 @@ layout: compress
     </script>
   </head>
   <body>
+    <input id="site-url" type="hidden" value="{{site.url}}">
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
